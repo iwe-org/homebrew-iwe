@@ -1,23 +1,23 @@
 class Iwe < Formula
   desc "Markdown-based personal knowledge management tool for developers"
   homepage "https://iwe.md"
-  version "0.11.0"
+  version "0.12.0"
   license "Apache-2.0"
 
   on_macos do
     url "https://github.com/iwe-org/iwe/releases/download/iwe-v#{version}/iwe-v#{version}-universal-apple-darwin.tar.gz"
-    sha256 "dcfb5a1b003b73372978fd06991c97724e97cb20b4dcfc47b43153290dc7af35"
+    sha256 "a73e4ad68effd3abc43a6939715511ced838f3b61635aaa5907d47e92d7ca701"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/iwe-org/iwe/releases/download/iwe-v#{version}/iwe-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b32abed9ef8cf8f3984b63787a845a854ab0c981baae1b61a03ce70498abce1e"
+      sha256 "2c3a0ee3965aba7dbd6d3fb0ccd0268e3c9b2ce642c986697ea5e4efda4cc064"
     end
 
     on_arm do
       url "https://github.com/iwe-org/iwe/releases/download/iwe-v#{version}/iwe-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0ff08f690de84c223ea0e8c8cf4c8b191072964f164bbfe4c621288b5d1019e1"
+      sha256 "d6d7a051022ab0129d9341829fa385974e62e940d3ee3d40c3f48a49bfb7aac8"
     end
   end
 
