@@ -6,18 +6,18 @@ class Iwe < Formula
 
   on_macos do
     url "https://github.com/iwe-org/iwe/releases/download/iwe-v#{version}/iwe-v#{version}-universal-apple-darwin.tar.gz"
-    sha256 "ce465b89c3c5caa9cea5d1c8b0afd13f5a6dfa4fc1738a89061a2b5eedc9f3f7"
+    sha256 "10aeaaad225284fac2012899be92f4fb9e65043e3c281ed920f1a3aecaa41fae"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/iwe-org/iwe/releases/download/iwe-v#{version}/iwe-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c3be0c5934bba5d429cdb1f7d7edfdff7b3f9e4cbcea59b989561da590b78033"
+      sha256 "2ba5d5a9f644d58de6d92ee9741fec1215e2572f206cda97dc4b2cc28b9532ff"
     end
 
     on_arm do
       url "https://github.com/iwe-org/iwe/releases/download/iwe-v#{version}/iwe-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "aa1660cf2ab4d487d6f2b85476d75004e872bef15c7edfc4f633b81311d349bf"
+      sha256 "d8a241560754f21547c851d7d8fe6bc97f6fd931b2d4770bcd58f17ee718b2ea"
     end
   end
 
