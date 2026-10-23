@@ -1,5 +1,5 @@
 class Iwe < Formula
-  desc "Markdown-based personal knowledge management tool for developers"
+  desc "Markdown knowledge base you and your AI agent work on together"
   homepage "https://iwe.md"
   version "0.29.0"
   license "Apache-2.0"
