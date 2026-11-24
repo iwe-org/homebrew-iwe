@@ -1,23 +1,23 @@
 class Iwe < Formula
   desc "Markdown knowledge base you and your AI agent work on together"
   homepage "https://iwe.md"
-  version "0.35.0"
+  version "0.35.1"
   license "Apache-2.0"
 
   on_macos do
     url "https://github.com/iwe-org/iwe/releases/download/iwe-v#{version}/iwe-v#{version}-universal-apple-darwin.tar.gz"
-    sha256 "ef6c876f666715cfe3258e998e6bb220d637e0c1b6d81634344ffcdc5474371d"
+    sha256 "9f360250402184cbda54ae3dcd54156326a17238da7b577bd894b58c76d19f24"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/iwe-org/iwe/releases/download/iwe-v#{version}/iwe-v#{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9c42b87ac5826a82ae3efeaa98fde0426d1ba58a4b8efcffe52f10d8b3c9e93e"
+      sha256 "00efb8ddf888e583dd69f591d9c9564958ba14e36fd28eb970aa54a4d6db393c"
     end
 
     on_arm do
       url "https://github.com/iwe-org/iwe/releases/download/iwe-v#{version}/iwe-v#{version}-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "18ee0254ab4fb1f229a3dff3816957975f7cdd10e0f29d06e9210d45990a4acf"
+      sha256 "c190394d5214cf502436ed3584973a4ea02b82a2b7320cf3c2485f0fc210c7eb"
     end
   end
 
